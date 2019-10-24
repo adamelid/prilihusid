@@ -1,0 +1,25 @@
+{
+  "name": "hopverkefni_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.23.1",
+    "stylelint-config-primer": "^8.2.1",
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamelid/prilihusid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamelid/prilihusid/issues"
+  },
+  "homepage": "https://github.com/adamelid/prilihusid#readme"
+}
