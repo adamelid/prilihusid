@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vöruhúsið</title>
 
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../grid.css">
+    <link rel="stylesheet" href="../scss/cart.css">
   </head>
   <body>
     <header>
@@ -15,28 +15,29 @@
       <a href="products.html"><h3> VÖRUR </h3></a>
       <a href="course.html"><h3> NÁMSKEIÐ </h3></a>
       <a href="staff.html"><h3> STARFSFÓLK </h3></a>
-      <a href=""> <img src="img/cart.svg"><h3> cart </h3></a>
+      <a href=""> <img src="../img/cart.svg"><h3> cart </h3></a>
     </header>
-
+<div class="contents">
     <h2>Vörur í körfu</h2>
-    <div class="img">
-      <img src="img/Backpack.jpg" alt="">
+    <div class="img-product">
+      <img src="../img/Backpack.jpg" alt="">
     </div>
     <div class="product">
       <h2>Bakpoki</h2>
-      <p>Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+      <p class="desc">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
       <h3>49.900 kr.-</h3>
       <p>Fjöldi:</p>
+
       <input type="number" name="" value="2">
-      <button type="button" name="button"><img src="img/cart.svg">Uppfæra</button>
-      <button type="button" name="button"><img src="img/cart.svg">Eyða úr körfu</button>
+      <button type="button" name="button"><img src="../img/cart.svg">Uppfæra</button>
+      <button type="button" name="button"><img src="../img/cart.svg">Eyða úr körfu</button>
     </div>
-    <div class="img">
-      <img src="img/chalkbag.jpg" alt="">
+    <div class="img-product">
+      <img src="../img/chalkbag.jpg" alt="">
     </div>
     <div class="product">
       <h2>Kalkpoki</h2>
-      <p>Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+      <p class="desc">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
       <h3>4.900 kr.-</h3>
       <p>Fjöldi:</p>
       <input type="number" name="" value="4">
@@ -45,10 +46,9 @@
     </div>
     <div class="information">
       <h2>Sendingarupplýsingar</h2>
-      <p>Nafn:</p>
-      <input type="text" name="" value="">
-      <p>Heimilisfang:</p>
-      <input type="text" name="" value="">
+      <form action="/action_page.php">
+        Nafn: <input type="text" name="FirstName"><br>
+        Heimilisfang: <input type="text" name="LastName"><br>
       <p>Póstnúmer:</p>
       <select>
         <option value="">-Velja póstnúmer-</option>
@@ -237,12 +237,10 @@
     </div>
     <div class="information">
       <h2>Greiðsluupplýsingar</h2>
-      <p>Kortanúmer:</p>
-      <input type="text" name="" value="">
-      <p>Korthafi:</p>
-      <input type="text" name="" value="">
+      Kortanúmer<input type="text" name="kortanumer"><br>
+      Korthafi<input type="text" name="korthafi"><br>
       <p>Gildistími:</p>
-      <p>Mán</p>
+      Mán
       <select>
         <option value="">01</option>
         <option value="">02</option>
@@ -257,7 +255,7 @@
         <option value="">11</option>
         <option value="">12</option>
       </select>
-      <p>Ár</p>
+      Ár
       <select>
         <option value="">2019</option>
         <option value="">2020</option>
@@ -265,7 +263,9 @@
         <option value="">2022</option>
       </select>
     </div>
-    <a href=""><button type="button" name="button">Kaupa</button></a>
+    <input type="submit" value="Kaupa">
+    </form>
+  </div>
     <footer>
       <div class="flokkar">
         <h3>Vöruflokkar</h3>
