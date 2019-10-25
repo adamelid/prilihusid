@@ -1,4 +1,4 @@
-@import "scss/config.min.css";
+@import "scss/config.scss";
 
 * {
   padding: 0;
@@ -21,10 +21,10 @@ html { /* stylelint-disable-line */
 
 
 // TODO sækja allar sass skrár
-@import "scss/index.min.css";
-@import "scss/header.min.css";
-@import "scss/footer.min.css";
-@import "scss/course.min.css";
-@import "scss/cart.min.css";
-@import "scss/products.min.css";
-@import "scss/staff.min.css";
+@import "scss/index.scss";
+@import "scss/header.scss";
+@import "scss/footer.scss";
+@import "scss/course.scss";
+@import "scss/cart.scss";
+@import "scss/products.scss";
+@import "scss/staff.scss";
