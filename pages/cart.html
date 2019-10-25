@@ -1,21 +1,34 @@
 <!doctype html>
-<html lang="is">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
     <title>Vöruhúsið</title>
 
     <link rel="stylesheet" href="../grid.css">
-    <link rel="stylesheet" href="../scss/cart.css">
+    <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
     <header>
       <h1>Prílihúsið</h1>
-      <a href="../index.html"><h3> FORSÍÐA </h3></a>
-      <a href="products.html"><h3> VÖRUR </h3></a>
-      <a href="course.html"><h3> NÁMSKEIÐ </h3></a>
-      <a href="staff.html"><h3> STARFSFÓLK </h3></a>
-      <a href=""> <img src="../img/cart.svg"><h3> cart </h3></a>
+      <div class="header-container">
+        <div class="header-page">
+          <a href="../index.html"><h3> FORSÍÐA </h3></a>
+        </div>
+        <div class="header-page">
+          <a href="products.html"><h3> VÖRUR </h3></a>
+        </div>
+        <div class="header-page">
+          <a href="course.html"><h3> NÁMSKEIÐ </h3></a>
+        </div>
+        <div class="header-page">
+          <a href="staff.html"><h3> STARFSFÓLK </h3></a>
+        </div>
+        <div class="header-page">
+          <a href=""> <img src="../img/cart.svg"><h3> Karfa (6) </h3></a>
+        </div>
+      </div>
     </header>
 <div class="contents">
     <h2>Vörur í körfu</h2>
@@ -266,38 +279,46 @@
     <input type="submit" value="Kaupa">
     </form>
   </div>
-    <footer>
-      <div class="flokkar">
-        <h3>Vöruflokkar</h3>
+  <footer>
+    <div class="flokkar">
+      <h3>Vöruflokkar</h3>
+      <div class="flokkar-linkar">
         <a href="products.html"><p>Nauðsynjavörur</p></a>
         <a href="products.html"><p>Frábærar vörur</p></a>
         <a href="products.html"><p>Ómissandi vörur</p></a>
         <a href="products.html"><p>Ótrúlegar vörur</p></a>
         <a href="products.html"><p>Magnaðar vörur</p><a/>
       </div>
-      <div class="flokkar">
-        <h3>Vöruflokkar</h3>
+    </div>
+    <div class="flokkar">
+      <h3>Vöruflokkar</h3>
+      <div class="flokkar-linkar">
         <a href="products.html"><p>Trylltar vörur</p></a>
         <a href="products.html"><p>Geggjaðar vörur</p></a>
         <a href="products.html"><p>Svakalegar vörur</p></a>
         <a href="products.html"><p>Fáránlegar vörur</p></a>
         <a href="products.html"><p>Klikkaðar vörur</p><a/>
       </div>
-      <div class="flokkar">
-        <h3>Námskeið</h3>
+    </div>
+    <div class="flokkar">
+      <h3>Námskeið</h3>
+      <div class="flokkar-linkar">
         <a href="course.html"><p>V0 - V1 námskeið</p></a>
         <a href="course.html"><p>V2 - V4 námskeið</p></a>
         <a href="course.html"><p>V5 - V7 námskeið</p></a>
         <a href="course.html"><p>Fjallaklifur námskeið</p></a>
       </div>
-      <div class="flokkar">
-        <h3>Síður</h3>
+    </div>
+    <div class="flokkar">
+      <h3>Síður</h3>
+      <div class="flokkar-linkar">
         <a href="products.html"><p>Allar vörur</p></a>
         <a href="staff.html"><p>Starfsfólk</p></a>
         <a href="course.html"><p>Námskeið</p></a>
         <a href=""><p>Karfa</p></a>
       </div>
-      <p>© 2018 Vöruhúsið<p>
-    </footer>
+    </div>
+    <p>© 2018 Vöruhúsið<p>
+  </footer>
   </body>
 </html>

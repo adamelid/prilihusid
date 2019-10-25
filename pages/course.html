@@ -1,110 +1,132 @@
 <!doctype html>
-<html lang="is">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
     <title>Vöruhúsið</title>
 
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../grid.css">
+    <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
     <header>
       <h1>Prílihúsið</h1>
-      <a href="../index.html"><h3> FORSÍÐA </h3></a>
-      <a href="products.html"><h3> VÖRUR </h3></a>
-      <a href=""><h3> NÁMSKEIÐ </h3></a>
-      <a href="staff.html"><h3> STARFSFÓLK </h3></a>
-      <a href="cart.html"> <img src="img/cart.svg"><h3> cart </h3></a>
+      <div class="header-container">
+        <div class="header-page">
+          <a href="../index.html"><h3> FORSÍÐA </h3></a>
+        </div>
+        <div class="header-page">
+          <a href="products.html"><h3> VÖRUR </h3></a>
+        </div>
+        <div class="header-page">
+          <a href=""><h3> NÁMSKEIÐ </h3></a>
+        </div>
+        <div class="header-page">
+          <a href="staff.html"><h3> STARFSFÓLK </h3></a>
+        </div>
+        <div class="header-page">
+          <a href="cart.html"> <img src="../img/cart.svg"><h3> Karfa (6) </h3></a>
+        </div>
+      </div>
     </header>
-    
-    <div class="courses">
-    <h1>Námskeið</h1>
-    Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri
-    annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!
-    </div>
-    <div class="img">
-    <img src="img/climbing-gym.jpg" alt="">
-    </div>
-    <div class="information">
-      <h2>Almennar upplýsingar</h2>
-      <p>Nafn:</p>
-      <input type="text" name="" value="">
-      <p>Heimilisfang:</p>
-      <input type="text" name="" value="">
-      <p>Aldur:</p>
-      <input type="number" name="" value="1">
-      <p>Námskeið:</p>
-      <input type="" name="" value="">
-      <select>
-        <option value="V0">V0 - V1</option>
-        <option value="v2">V2 - V4</option>
-        <option value="V5">V5 - V7</option>
-        <option value="kids">Krakkanámskeið</option>
-        <option value="mountain">Fjallaklifur</option>
-      </select>
-    </div>
-    <div class="information">
-      <h2>Greiðsluupplýsingar</h2>
-      <p>Kortanúmer:</p>
-      <input type="text" name="" value="">
-      <p>Korthafi:</p>
-      <input type="text" name="" value="">
-      <p>Gildistími:</p>
-      <p>Mán</p>
-      <select>
-        <option value="">01</option>
-        <option value="">02</option>
-        <option value="">03</option>
-        <option value="">04</option>
-        <option value="">05</option>
-        <option value="">06</option>
-        <option value="">07</option>
-        <option value="">08</option>
-        <option value="">09</option>
-        <option value="">10</option>
-        <option value="">11</option>
-        <option value="">12</option>
-      </select>
-      <p>Ár</p>
-      <select>
-        <option value="">2019</option>
-        <option value="">2020</option>
-        <option value="">2021</option>
-        <option value="">2022</option>
-      </select>
-    </div>
-    <a href=""><button type="button">Skrá</button></a>
+    <main>
+      <div class="courses">
+      <h1>Námskeið</h1>
+      Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri
+      annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna!
+      </div>
+      <div class="img">
+      <img src="img/climbing-gym.jpg" alt="">
+      </div>
+      <div class="information">
+        <h2>Almennar upplýsingar</h2>
+        <p>Nafn:</p>
+        <input type="text" name="" value="">
+        <p>Heimilisfang:</p>
+        <input type="text" name="" value="">
+        <p>Aldur:</p>
+        <input type="number" name="" value="1">
+        <p>Námskeið:</p>
+        <input type="" name="" value="">
+        <select>
+          <option value="V0">V0 - V1</option>
+          <option value="v2">V2 - V4</option>
+          <option value="V5">V5 - V7</option>
+          <option value="kids">Krakkanámskeið</option>
+          <option value="mountain">Fjallaklifur</option>
+        </select>
+      </div>
+      <div class="information">
+        <h2>Greiðsluupplýsingar</h2>
+        <p>Kortanúmer:</p>
+        <input type="text" name="" value="">
+        <p>Korthafi:</p>
+        <input type="text" name="" value="">
+        <p>Gildistími:</p>
+        <p>Mán</p>
+        <select>
+          <option value="">01</option>
+          <option value="">02</option>
+          <option value="">03</option>
+          <option value="">04</option>
+          <option value="">05</option>
+          <option value="">06</option>
+          <option value="">07</option>
+          <option value="">08</option>
+          <option value="">09</option>
+          <option value="">10</option>
+          <option value="">11</option>
+          <option value="">12</option>
+        </select>
+        <p>Ár</p>
+        <select>
+          <option value="">2019</option>
+          <option value="">2020</option>
+          <option value="">2021</option>
+          <option value="">2022</option>
+        </select>
+      </div>
+      <a href=""><button type="button">Skrá</button></a>
+    </main>
     <footer>
       <div class="flokkar">
         <h3>Vöruflokkar</h3>
-        <a href="products.html"><p>Nauðsynjavörur</p></a>
-        <a href="products.html"><p>Frábærar vörur</p></a>
-        <a href="products.html"><p>Ómissandi vörur</p></a>
-        <a href="products.html"><p>Ótrúlegar vörur</p></a>
-        <a href="products.html"><p>Magnaðar vörur</p><a/>
+        <div class="flokkar-linkar">
+          <a href="products.html"><p>Nauðsynjavörur</p></a>
+          <a href="products.html"><p>Frábærar vörur</p></a>
+          <a href="products.html"><p>Ómissandi vörur</p></a>
+          <a href="products.html"><p>Ótrúlegar vörur</p></a>
+          <a href="products.html"><p>Magnaðar vörur</p><a/>
+        </div>
       </div>
       <div class="flokkar">
         <h3>Vöruflokkar</h3>
-        <a href="products.html"><p>Trylltar vörur</p></a>
-        <a href="products.html"><p>Geggjaðar vörur</p></a>
-        <a href="products.html"><p>Svakalegar vörur</p></a>
-        <a href="products.html"><p>Fáránlegar vörur</p></a>
-        <a href="products.html"><p>Klikkaðar vörur</p><a/>
+        <div class="flokkar-linkar">
+          <a href="products.html"><p>Trylltar vörur</p></a>
+          <a href="products.html"><p>Geggjaðar vörur</p></a>
+          <a href="products.html"><p>Svakalegar vörur</p></a>
+          <a href="products.html"><p>Fáránlegar vörur</p></a>
+          <a href="products.html"><p>Klikkaðar vörur</p><a/>
+        </div>
       </div>
       <div class="flokkar">
         <h3>Námskeið</h3>
-        <a href=""><p>V0 - V1 námskeið</p></a>
-        <a href=""><p>V2 - V4 námskeið</p></a>
-        <a href=""><p>V5 - V7 námskeið</p></a>
-        <a href=""><p>Fjallaklifur námskeið</p></a>
+        <div class="flokkar-linkar">
+          <a href=""><p>V0 - V1 námskeið</p></a>
+          <a href=""><p>V2 - V4 námskeið</p></a>
+          <a href=""><p>V5 - V7 námskeið</p></a>
+          <a href=""><p>Fjallaklifur námskeið</p></a>
+        </div>
       </div>
       <div class="flokkar">
         <h3>Síður</h3>
-        <a href="products.html"><p>Allar vörur</p></a>
-        <a href="staff.html"><p>Starfsfólk</p></a>
-        <a href=""><p>Námskeið</p></a>
-        <a href="cart.html"><p>Karfa</p></a>
+        <div class="flokkar-linkar">
+          <a href="products.html"><p>Allar vörur</p></a>
+          <a href="staff.html"><p>Starfsfólk</p></a>
+          <a href=""><p>Námskeið</p></a>
+          <a href="cart.html"><p>Karfa</p></a>
+        </div>
       </div>
       <p>© 2018 Vöruhúsið<p>
     </footer>
